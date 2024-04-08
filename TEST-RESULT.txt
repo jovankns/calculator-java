@@ -1,0 +1,11 @@
+Calculator.java
+1. Nedostatak obrade izraza sa nepostojećim operacijama.
+ Program ne pruža odgovarajuću poruku ili reakciju kada se unese izraz koji sadrži nepostojeće operacije.
+2. Propust u obradi deljenja nulom. Program ne pruža odgovarajuću poruku ili reakciju kada se unese izraz sa deljenjem nulom.
+3. Program ne podržava operaciju stepenovanja (^) ili ostale kompleksnije matematičke operacije.
+
+Start.java
+1. Nema potrebe za zatvaranjem `Scanner` objekta unutar petlje, jer se `scanIn` već zatvara pri svakoj iteraciji petlje.
+ To može dovesti do nepotrebnog opterećenja i mogućih problema u vezi sa zatvaranjem istog objekta više puta.
+2. Nedostatak validacije unosa. Program ne vrši validaciju unosa,
+ pa se može uneti neispravan izraz koji će rezultovati greškom ili neočekivanim ponašanjem programa.
